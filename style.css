@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://img.freepik.com/vetores-premium/fundo-gradiente-de-meio-tom-pontilhado-preto-e-vermelho_567288-899.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+body *{
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+#container{
+    width: 360px;
+    margin: auto;
+    margin-top: 56px auto 0px;
+    padding: 0 24px;
+}
+
+#profile{
+    text-align: center;
+    padding: 24px;
+}
+
+#profile img{
+    width: 112px;
+    border-radius: 50%;
+}
+
+#profile p{
+    margin-top: 8px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+ul li{
+    background: rgba(255, 255, 255, 0.1);
+border: 1px solid var(--stroke-color-dark-mode, rgba(255, 255, 255, 0.50));
+border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    padding: 16px 24px;
+}
+
+ul li:hover{
+    background: rgba(255, 255, 255, 0.05);
+    border: 1.5px solid white;
+}
+
+#social-links{
+    display: flex;
+padding: 24px;
+justify-content: center;
+align-items: flex-start;
+gap: 32px;
+align-self: stretch;
+font-size: 24px;
+}
